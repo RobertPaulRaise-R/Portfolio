@@ -12,10 +12,10 @@ function Navbar() {
         <PiInstagramLogoFill />
       </div>
       <div>
-        <h3 className="font-medium">Robert Paul Raise</h3>
+        <h3 className="text-sm font-medium">Robert Paul Raise</h3>
       </div>
-      <div className="flex items-center gap-2 border-l-2 border-black p-5">
-        <p className="text-sm">Menu</p>
+      <div className="flex h-full items-center gap-2 border-l-2 border-black p-5">
+        <p className="text-xs">Menu</p>
         <CgMenuGridO
           enableBackground={true}
           className="rounded-full bg-purple-600"
