@@ -16,10 +16,7 @@ function Navbar() {
       </div>
       <div className="flex h-full items-center gap-2 border-l-2 border-black p-5">
         <p className="text-xs">Menu</p>
-        <CgMenuGridO
-          enableBackground={true}
-          className="rounded-full bg-purple-600"
-        />
+        <CgMenuGridO className="rounded-full bg-purple-600" />
       </div>
     </nav>
   );
