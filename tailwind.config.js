@@ -7,8 +7,9 @@ export default {
     },
     extend: {
       animation: {
-        marquee: "marquee 25s linear infinite",
-        marquee2: "marquee2 25s linear infinite",
+        marquee: "marquee 15s linear infinite",
+        marquee2: "marquee2 15s linear infinite",
+        upDown: "upDown 1s infinite",
       },
       keyframes: {
         marquee: {
@@ -18,6 +19,11 @@ export default {
         marquee2: {
           "0%": { transform: "translateX(100%)" },
           "100%": { transform: "translateX(0%)" },
+        },
+        upDown: {
+          "0%": { transform: "translateX(0)", rotate: "-90deg" },
+          "50%": { transform: "translateX(-20px)", rotate: "-90deg" },
+          "100%": { transform: "translateX(0px)", rotate: "-90deg" },
         },
       },
     },
